@@ -55,5 +55,6 @@ export const fetchUserInfo = async (username: string) => {
     return result
   } catch (error) {
     console.error(error)
+    return null
   }
 }

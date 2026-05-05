@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MobileContent from './MobileContent.vue';
 import DesktopContent from './DesktopContent.vue';
-import type { UserInfo } from '@/utils';
+import type { UserInfo } from '@/api/github';
 
 const props = defineProps<{
   user: UserInfo | null;

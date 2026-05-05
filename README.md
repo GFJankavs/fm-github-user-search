@@ -1,48 +1,70 @@
-# fm-github-user-search
+# Frontend Mentor - GitHub user search app solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [GitHub user search app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Table of contents
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
 
-## Recommended Browser Setup
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Overview
 
-## Type Support for `.vue` Imports in TS
+### The challenge
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Users should be able to:
 
-## Customize configuration
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Search for GitHub users by their username
+- See relevant user information based on their search
+- Switch between light and dark themes
+- **Bonus**: Have the correct color scheme chosen for them based on their computer preferences. _Hint_: Research `prefers-color-scheme` in CSS.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Screenshot
 
-## Project Setup
+![Screenshot](./screenshot.png)
 
-```sh
-pnpm install
-```
+### Links
 
-### Compile and Hot-Reload for Development
+- Solution URL: [GitHub](https://github.com/GFJankavs/fm-github-user-search)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-```sh
-pnpm dev
-```
+## My process
 
-### Type-Check, Compile and Minify for Production
+### Built with
 
-```sh
-pnpm build
-```
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Vue3](https://vuejs.org/) - JS framework
 
-### Lint with [ESLint](https://eslint.org/)
+### What I learned
 
-```sh
-pnpm lint
-```
+I learned how to write code in Vue3 using Composition API. As I have mostly developed projects using React, this was a nice freshness for my coding journey.
+
+### Continued development
+
+I would like to focus on writing unit and integration tests for projects. I haven't written them in a while and would like to refresh my memory about them.
+
+### AI Collaboration
+
+I used Claude Code for these specific questions:
+
+- How to dynamically change between ligth/dark mode in VueJS
+- Code review after initial code completion
+
+## Author
+
+- Frontend Mentor - [@GFJankavs](https://www.frontendmentor.io/profile/GFJankavs)
+- Twitter - [@GFJankavs](https://x.com/GFJankavs)

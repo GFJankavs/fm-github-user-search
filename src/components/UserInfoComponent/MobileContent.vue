@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { UserInfo } from '@/utils';
+import type { UserInfo } from '@/api/github';
 import UserLinks from './UserLinks.vue';
 import UserStats from './UserStats.vue';
 

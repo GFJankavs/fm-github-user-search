@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import SearchInput from './components/SearchInput.vue';
 import UserInfoComponent from './components/UserInfoComponent/UserInfoComponent.vue';
-import { fetchUserInfo, type UserInfo } from './utils';
+import { fetchUserInfo, type UserInfo } from './api/github';
 
 const userInfo = ref<UserInfo | null>(null);
 
