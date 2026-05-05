@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'tailwindcss';
+@import './fonts.css';
+
+:root {
+  --color-neutral-900: #141d2f;
+  --color-neutral-800: #1e2a47;
+  --color-neutral-700: #2b3442;
+  --color-neutral-500: #4b6a9b;
+  --color-neutral-300: #697c9a;
+  --color-neutral-200: #90a4d4;
+  --color-neutral-100: #f6f8ff;
+  --color-neutral-0: #ffffff;
+
+  --color-blue-300: #60abff;
+  --color-blue-500: #0079ff;
+
+  --color-red-500: #f74646;
+
+  --spacing-0: 0px;
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-125: 10px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+
+  --radius-0: 0px;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-full: 999px;
+}
+
+@theme {
+  --color-neutral-900: var(--color-neutral-900);
+  --color-neutral-800: var(--color-neutral-800);
+  --color-neutral-700: var(--color-neutral-700);
+  --color-neutral-500: var(--color-neutral-500);
+  --color-neutral-300: var(--color-neutral-300);
+  --color-neutral-200: var(--color-neutral-200);
+  --color-neutral-100: var(--color-neutral-100);
+  --color-neutral-0: var(--color-neutral-0);
+  --color-blue-300: var(--color-blue-300);
+  --color-blue-500: var(--color-blue-500);
+  --color-red-500: var(--color-red-500);
+
+  --spacing-0: var(--spacing-0);
+  --spacing-025: var(--spacing-025);
+  --spacing-050: var(--spacing-050);
+  --spacing-075: var(--spacing-075);
+  --spacing-100: var(--spacing-100);
+  --spacing-125: var(--spacing-125);
+  --spacing-150: var(--spacing-150);
+  --spacing-200: var(--spacing-200);
+  --spacing-250: var(--spacing-250);
+  --spacing-300: var(--spacing-300);
+  --spacing-400: var(--spacing-400);
+  --spacing-500: var(--spacing-500);
+  --spacing-600: var(--spacing-600);
+  --spacing-800: var(--spacing-800);
+  --spacing-1000: var(--spacing-1000);
+
+  --radius-0: var(--radius-0);
+  --radius-4: var(--radius-4);
+  --radius-6: var(--radius-6);
+  --radius-8: var(--radius-8);
+  --radius-10: var(--radius-10);
+  --radius-12: var(--radius-12);
+  --radius-16: var(--radius-16);
+  --radius-20: var(--radius-20);
+  --radius-24: var(--radius-24);
+  --radius-full: var(--radius-full);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+html,
+body {
+  background-color: var(--color-neutral-100);
+}
+
+html.dark,
+html.dark body {
+  background-color: var(--color-neutral-900);
+}
