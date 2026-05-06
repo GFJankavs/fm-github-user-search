@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/GFJankavs/fm-github-user-search)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Website](https://z10kug95g90ki9zqxx21alal.gfjankavs.lv)
 
 ## My process
 
